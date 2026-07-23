@@ -1,0 +1,49 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    char name[30];
+    char branch[30];
+    char year[10];
+    char mobile[15];
+    char email[40];
+    char instrument[30];
+
+    clrscr();
+
+    printf("\n===== MUSIC CLUB REGISTRATION FORM =====\n");
+
+    printf("\nEnter Your Name: ");
+    gets(name);
+
+    printf("Enter Branch: ");
+    gets(branch);
+
+    printf("Enter Year: ");
+    gets(year);
+
+    printf("Enter Mobile Number: ");
+    gets(mobile);
+
+    printf("Enter Email ID: ");
+    gets(email);
+
+    printf("Enter Musical Instrument / Talent: ");
+    gets(instrument);
+
+    clrscr();
+
+    printf("\n===== REGISTRATION DETAILS =====\n");
+    printf("\nName              : %s", name);
+    printf("\nBranch            : %s", branch);
+    printf("\nYear              : %s", year);
+    printf("\nMobile Number     : %s", mobile);
+    printf("\nEmail ID          : %s", email);
+    printf("\nTalent/Instrument : %s", instrument);
+
+    printf("\n\nRegistration Submitted Successfully!");
+    printf("\nThank You for Joining the Music Club.");
+
+    getch();
+}
